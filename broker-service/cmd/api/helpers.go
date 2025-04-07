@@ -22,5 +22,5 @@ func (app *Config) readJSON(w http.ResponseWriter, r *htpp.Request, data any) er
 		return err
 	}
 
-	err = dec.Decode(&struct{})
+	err = dec.Decode(&struct{};
 }
